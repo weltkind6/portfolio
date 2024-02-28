@@ -101,10 +101,14 @@ a {
 
 .services-row {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 30px;
+  row-gap: 60px;
 }
 
 .services-card {
+    flex: 1 1 0;
+    min-width: 315px;
 }
 
 .services-card h2 {
