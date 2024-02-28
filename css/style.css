@@ -61,6 +61,10 @@ a {
   font-size: 14px;
 }
 
+.nav-button {
+    display: none;
+}
+
 .nav-link.active {
   color: rgb(96, 96, 96);
 }
